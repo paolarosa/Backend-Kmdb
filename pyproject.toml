@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "m5-kmdb-paolarosa"
+version = "0.1.0"
+description = "Sprint 6"
+authors = ["Paola <pa_rosa@msn.com>"]
+readme = "README.md"
+packages = [{include = "m5_kmdb_paolarosa"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djangorestframework-simplejwt = "^5.2.2"
+python-dotenv = "^1.0.0"
+psycopg2-binary = "^2.9.6"
+pytest-testdox = "^3.0.1"
+pytest-django = "^4.5.2"
+ipdb = "^0.13.13"
+faker = "^18.5.1"
+djangorestframework = "^3.14.0"
+django = "^4.2"
+sqlparse = "^0.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
